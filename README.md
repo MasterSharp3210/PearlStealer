@@ -1,2 +1,2 @@
 # PearlStealer
-New version of CodeGrabber coded in C# and Python. It allows to send also browsers credentials databases
+New version of the original infostealer payload *CodeGrabber* developer by Itelcan3 in 2024... so long memories
