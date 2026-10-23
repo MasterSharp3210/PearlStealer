@@ -15,7 +15,7 @@ def upload():
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     print(f"[{timestamp}] Upload received")
 
-    # Testo
+    # Text
     testo = request.form.get("testo")
     if testo:
         log_file = os.path.join(UPLOAD_FOLDER, f"log_{timestamp}.txt")
@@ -33,7 +33,7 @@ def upload():
         screenshot.save(img_file)
         print(f"[{timestamp}] Screenshot saved")
 
-    # File TXT multipli
+    # Multiples txt files
     uploaded_files = request.files.getlist("files")
 
     for file in uploaded_files:
