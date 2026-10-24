@@ -5,7 +5,7 @@ from flask import Flask, request
 # ================== APP ==================
 app = Flask(__name__)
 
-# ================== CARTELLA UPLOAD ==================
+# ================== FOLDER UPLOAD ==================
 UPLOAD_FOLDER = os.path.join(os.path.dirname(os.path.abspath(__file__)), "loot")
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
